@@ -1,4 +1,5 @@
-import styles from "./Cardapio.module.scss";
+import styles from './Cardapio.module.scss';
+import {ReactComponent as Logo} from "";
 
 export default function Cardapio() {
   return (
@@ -7,5 +8,5 @@ export default function Cardapio() {
         <img src="assets/logo.svg" alt="logo da esfirrou" />
       </nav>
     </main>
-  )S
+  )
 }
